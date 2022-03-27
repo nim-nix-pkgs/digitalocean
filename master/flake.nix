@@ -11,6 +11,7 @@
   inputs.src-digitalocean-master.ref   = "refs/heads/master";
   inputs.src-digitalocean-master.owner = "treeform";
   inputs.src-digitalocean-master.repo  = "digitalocean";
+  inputs.src-digitalocean-master.dir   = "";
   inputs.src-digitalocean-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
